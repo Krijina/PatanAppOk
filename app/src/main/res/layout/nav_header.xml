@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:background="#245ED3"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="232dp"
+        android:layout_height="188dp"
+        android:layout_gravity="center"
+        android:src="@drawable/tulogo" />
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:text="Patan Multiple Campus"
+        android:padding="20dp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="Patan dhoka"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

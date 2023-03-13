@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Contact"
+    android:textStyle="bold"
+    android:id="@+id/contact"
+    android:textSize="35sp"
+    android:layout_marginTop="30dp"
+    android:background="#7290C5"
+    android:gravity="center"
+    tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/address"
+        android:layout_below="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address:      Patan Dhoka,Lalitpur"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="188dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/contactno"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact No:        01555555"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="275dp"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/contactno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:         patancmp@gmail.com"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="275dp"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".News">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="419dp"
+        android:layout_height="46dp"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginTop="50dp"
+        android:hint="Name"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/black"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <EditText
+        android:layout_below="@+id/name"
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginTop="20dp"
+        android:hint="Email"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/black"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="211dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:layout_below="@id/email"
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittextbackground"
+        android:hint="Address"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/black"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="298dp"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:layout_below="@id/address"
+        android:id="@+id/news"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittextbackground"
+        android:hint="News"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/black"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="298dp"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:layout_below="@+id/news"
+        android:id="@+id/btnsave"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Save"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="426dp" />
+    <Button
+        android:layout_below="@+id/btnsave"
+        android:id="@+id/btncancel"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Cancel"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+</RelativeLayout>
