@@ -31,4 +31,5 @@ public class News extends AppCompatActivity {
             }
         });
     }
+
 }
