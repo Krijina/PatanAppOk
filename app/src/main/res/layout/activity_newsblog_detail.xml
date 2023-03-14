@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsblogDetail">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Todays news"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="181dp"
+            tools:layout_editor_absoluteY="51dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+
+            android:id="@+id/textView"
+            android:layout_width="379dp"
+            android:layout_height="360dp"
+            android:layout_below="@+id/t1"
+            android:layout_marginTop="124dp"
+            android:text="All student in BCA passed"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            app:layout_constraintTop_toTopOf="@+id/t1"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="19dp" />
+
+<!--        <Button-->
+<!--            android:id="@+id/btninquire"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:layout_marginTop="84dp"-->
+<!--            android:text="Add"-->
+<!--            android:textSize="30dp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/textView"-->
+<!--            tools:ignore="MissingConstraints" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
